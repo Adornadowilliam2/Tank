@@ -1,0 +1,30 @@
+// function fillContainer() {
+//     let incrementalValue = document.getElementById("incrementalValue");
+//     let capacityValue = document.getElementById("capacityValue");
+//     let containerA = document.getElementById("containerA");
+//     let water = containerA.querySelector(".water");
+
+//     let incremental = Number(incrementalValue.textContent);
+//     let capacity = Number(capacityValue.textContent);
+//     let current = Number(water.style.height.replace("%", ""));
+
+//     if (current + incremental > capacity) {
+//         alert("Cannot exceed the maximum capacity!");
+//     } else if (incremental === 0) {
+//         alert("Please enter a value for the incremental field and capacity!");
+//     } else {
+//         // Calculate the new height based on the maximum capacity
+//         let newHeight = current + incremental;
+//         water.style.height = newHeight + "%";
+
+//         // Calculate and display the percentage and current number of water
+//         let percentage = (newHeight / capacity) * 100;
+//         let currentNumber = newHeight;
+
+//         let statusCapacity = document.getElementById("statusCapacity");
+//         let statusPercentage = document.getElementById("statusPercentage");
+
+//         statusCapacity.textContent = currentNumber;
+//         statusPercentage.textContent = percentage.toFixed(2);
+//     }
+// }

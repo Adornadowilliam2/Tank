@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.5);
+    transform: rotate(180deg);
+    overflow: hidden;
+  }
+  
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contain div{
+    margin: 10px;
+    padding: 4px;
+}
+
+.water{
+    width: 400px;
+    background-color: blue;
+    height: 0%;
+}
